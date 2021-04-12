@@ -46,7 +46,7 @@ manejadorEmpleado.imprimirReporteEstadoEmpleado();
 }
 else
  if (opcion == 2) {
-     JOptionPane.showMessageDialog(null, "Procesando datos de la estudiante");
+     JOptionPane.showMessageDialog(null, "Procesando datos del estudiante");
      Estudiante manejadorEstudiante = new Estudiante();
      manejadorEstudiante=manejadorEstudiante.ingresarDatosEstudiante();
      manejadorEstudiante.imprimirReporteNotasEstudiante();
